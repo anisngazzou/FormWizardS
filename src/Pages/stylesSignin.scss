@@ -1,0 +1,319 @@
+// @media screen and (max-width: 1440px) {
+.loginx {
+  background-image: linear-gradient(to top, rgba(239, 117, 52, 0.6), #00a4e0);
+  background-size: cover;
+  background-position: center;
+  .auth-loginx-Container {
+    width: 400px;
+    .title {
+      color: white;
+      margin-top: 85px;
+      margin-bottom: 43px;
+    }
+    .formloginx {
+      flex-grow: 0;
+      padding: 30px 19px 30px 20px;
+      border-radius: 20px;
+      box-shadow: 0 14px 60px 0 rgba(0, 0, 0, 0.15);
+      background-color: #fff;
+      max-width: 400px;
+      width: 95vw;
+      input {
+        width: 100%;
+        height: 60px;
+        //padding: 10px 153px 11.5px 20px;
+        border-radius: 9px;
+        border: solid 1px #a6a9c8;
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+      .title-container {
+        margin-bottom: 45px;
+        margin-top: 24px;
+        p {
+          font-size: 18px;
+          color: #a6a9c8;
+        }
+        h1 {
+          font-size: 24px;
+          font-weight: bold;
+          color: #000;
+        }
+      }
+    }
+    .logo-bloc {
+      img {
+        width: auto;
+        height: 124px;
+      }
+      .logo_text {
+        font-size: 34.5px;
+        font-weight: 900;
+        color: #fff;
+        margin-left: 19px;
+        font-family: Roboto;
+        letter-spacing: normal;
+      }
+    }
+    .create-Account {
+      margin-top: 46px;
+      .check-account {
+        font-family: Ubuntu;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.7);
+      }
+      .create {
+        margin: 10px 32px 0;
+        font-family: Ubuntu;
+        font-size: 18px;
+        font-weight: 500;
+        // color: #fff;
+      }
+    }
+    .form-loginx {
+      .btn {
+        width: 234px;
+        height: 54px;
+        margin-top: 52px;
+      }
+      .mdp {
+        font-size: 14px;
+        text-align: right;
+        color: #4565f6;
+        margin-top: 8px;
+      }
+      .custom-Input {
+        font-size: 16px;
+        color: #a6a9c8;
+      }
+      .check-account {
+        font-size: 18px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+}
+.formloginx {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  box-shadow: 0 14px 60px 0 rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  margin-top: 16px;
+  @media screen and (max-width: 400px) {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .w-361 {
+    @media screen and (max-width: 800px) {
+      width: 361px !important;
+    }
+    @media screen and (max-width: 400px) {
+      width: 320px !important;
+    }
+  }
+  .form-loginx {
+    padding-left: 20px;
+    padding-right: 19px;
+    padding-top: 19px;
+    input[type="text"],
+    input[type="number"],
+    input[type="file"],
+    input[type="password"],
+    select {
+      width: 361px;
+      height: 60px;
+      //padding: 10px 20px 11.5px 20px;
+      border-radius: 9px;
+      border: solid 1px #a6a9c8;
+      background-color: rgba(255, 255, 255, 0.5);
+      @media screen and (max-width: 400px) {
+        width: 320px;
+      }
+    }
+    @media screen and (max-width: 400px) {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 5px;
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    @media screen and (max-width: 800px) {
+      select {
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .uploadFile {
+        margin-bottom: 10px;
+      }
+    }
+    .bloc {
+      margin-bottom: 10px;
+      @media screen and (max-width: 800px) {
+        width: min-content;
+      }
+      img {
+        z-index: 99 !important;
+      }
+    }
+    .hasInput {
+      margin-bottom: 10px;
+      button {
+        min-width: 361px;
+        min-height: 60px;
+      }
+      .floating-input {
+        position: absolute !important;
+        width: 100%;
+        height: 60px;
+        top: 0;
+      }
+      @media screen and (max-width: 400px) {
+        button {
+          width: 320px;
+          min-width: 320px;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+  .icon {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 14px;
+  }
+  .img-top {
+    padding-top: 37px;
+  }
+  .title-container {
+    margin-bottom: 45px;
+    margin-top: 24px;
+    p {
+      font-family: Ubuntu;
+      font-size: 18px;
+      color: #a6a9c8;
+    }
+    h1 {
+      font-family: Ubuntu;
+      font-size: 24px;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+}
+
+.title-wrapper {
+  min-height: 25px;
+}
+.firstModal2 {
+  box-shadow: -11px 0px 40px -20px rgba(140, 151, 175, 0.4);
+  border-radius: 20px;
+  padding: 20px 40px 60px 40px;
+  background: #ffffff;
+ width: 900px;
+ 
+  .buttons {
+    margin-bottom: 17px;
+    button {
+      &:first-child {
+        margin-right: 30px;
+      }
+    }
+  }
+  span {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #827f9b;
+  }
+}
+
+.confirmAddPatient {
+  box-shadow: -11px 0px 40px -20px rgba(140, 151, 175, 0.4);
+  border-radius: 20px;
+  padding: 60px 40px 60px 40px;
+  background: #ffffff;
+  max-width: 521.79px;
+  width: 80vw;
+  .buttons {
+    margin-bottom: 17px;
+    button {
+      &:first-child {
+        margin-right: 30px;
+      }
+    }
+  }
+  span {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #827f9b;
+  }
+}
+
+.c-stepper {
+  display: flex;
+}
+
+.c-stepper__item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+
+  &:before {
+    --size: 3rem;
+    content: "";
+    display: block;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    background-color: rgb(211, 211, 211);
+    background-color: red;
+    opacity: 0.5;
+    margin: 0 auto 1rem;
+  }
+
+  &:not(:last-child) {
+    &:after {
+      content: "";
+      position: relative;
+      top: calc(var(--circle-size) / 2);
+      width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
+      left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
+      height: 2px;
+      background-color: #e0e0e000;
+      order: -1;
+    }
+  }
+}
+
+.c-stepper__title {
+  font-weight: bold;
+  font-size: clamp(1rem, 4vw, 1.25rem);
+  margin-bottom: 0.5rem;
+}
+
+.c-stepper__desc {
+  color: grey;
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}
+
+/*** Non-demo CSS ***/
+
+.wrapper {
+
+  margin: 2rem auto 0;
+}
+
+
+
+
+//}

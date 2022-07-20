@@ -1,0 +1,189 @@
+.image-container {
+  border: 2px dashed #a4a7b5;
+  border-radius: 2rem;
+  transition: all 0.1s linear;
+  width: 100%;
+  line-height: 2.5rem;
+  flex: 1 1 auto;
+  margin-top: 0.75rem;
+  height: 10rem;
+}
+
+.previewImageDoctorSignup {
+  border-radius: 20px;
+}
+
+.doctor-signup {
+  background-image: linear-gradient(to top, rgba(239, 117, 52, 0.6), #00a4e0);
+  .auth-Doctor-Signup-Container {
+    .title {
+      font-family: Ubuntu;
+      font-size: 36px;
+      font-weight: bold;
+      color: #fff;
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+    .formLogin {
+      margin-left: 20px;
+      margin-right: 20px;
+      border-radius: 20px;
+      box-shadow: 0 14px 60px 0 rgba(0, 0, 0, 0.15);
+      background-color: #fff;
+      margin-top: 16px;
+      @media screen and (max-width: 400px) {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .w-361 {
+        @media screen and (max-width: 800px) {
+          width: 361px !important;
+        }
+        @media screen and (max-width: 400px) {
+          width: 320px !important;
+        }
+      }
+      .form-login {
+        padding-left: 20px;
+        padding-right: 19px;
+        padding-top: 19px;
+        input[type="text"],
+        input[type="number"],
+        input[type="file"],
+        input[type="password"],
+        select {
+          width: 361px;
+          height: 60px;
+          //padding: 10px 20px 11.5px 20px;
+          border-radius: 9px;
+          border: solid 1px #a6a9c8;
+          background-color: rgba(255, 255, 255, 0.5);
+          @media screen and (max-width: 400px) {
+            width: 320px;
+          }
+        }
+        @media screen and (max-width: 400px) {
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-right: 5px;
+          margin-left: 5px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        @media screen and (max-width: 800px) {
+          select {
+            margin-bottom: 10px;
+            margin-left: 0;
+            margin-right: 0;
+          }
+          .uploadFile {
+            margin-bottom: 10px;
+          }
+        }
+        .bloc {
+          margin-bottom: 10px;
+          @media screen and (max-width: 800px) {
+            width: min-content;
+          }
+          img {
+            z-index: 99 !important;
+          }
+        }
+        .hasInput {
+          margin-bottom: 10px;
+          button {
+            min-width: 361px;
+            min-height: 60px;
+          }
+          .floating-input {
+            position: absolute !important;
+            width: 100%;
+            height: 60px;
+            top: 0;
+          }
+          @media screen and (max-width: 400px) {
+            button {
+              width: 320px;
+              min-width: 320px;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+        }
+      }
+      .icon {
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 14px;
+      }
+      .img-top {
+        padding-top: 37px;
+      }
+      .title-container {
+        margin-bottom: 45px;
+        margin-top: 24px;
+        p {
+          font-family: Ubuntu;
+          font-size: 18px;
+          color: #a6a9c8;
+        }
+        h1 {
+          font-family: Ubuntu;
+          font-size: 24px;
+          font-weight: bold;
+          color: #000;
+        }
+      }
+    }
+    .logo-bloc {
+      img {
+        width: 76px;
+        height: 76px;
+      }
+      .logo_text {
+        font-size: 34.5px;
+        font-weight: 900;
+        color: #fff;
+        margin-left: 19px;
+        font-family: Roboto;
+        letter-spacing: normal;
+      }
+    }
+  }
+  .create-Account {
+    margin-top: 46px;
+    .check-account {
+      font-family: Ubuntu;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    .create {
+      margin: 10px 32px 0;
+      font-family: Ubuntu;
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+    }
+  }
+  .form-login {
+    .btn {
+      width: 234px;
+      height: 54px;
+      margin-top: 24px;
+    }
+    .custom-Input {
+      font-family: Ubuntu;
+      font-size: 16px;
+      text-align: left;
+      color: #a6a9c8;
+    }
+    .check-account {
+      font-family: Ubuntu;
+      font-size: 18px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
